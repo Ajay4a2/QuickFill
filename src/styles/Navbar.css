@@ -1,0 +1,28 @@
+/* Navbar.css */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    color: black;
+    font-size: 1.2vw;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  header a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: black;
+  }
+  

@@ -1,0 +1,70 @@
+/* Remove scrollbar from the entire page */
+
+
+/* Confine scrolling inside the container only */
+.dashboard-container {
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f9f6f6;
+}
+
+/* Optional: Hide scrollbar visually but keep scroll functionality */
+.dashboard-container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: just to make it invisible */
+}
+
+.dashboard-container::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.question-result {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  border-color: white;
+  background-color: white;
+}
+
+.question h5 {
+  font-size: 1.2vw;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.correct-answer {
+  margin-top: 8px;
+}
+
+.result {
+  margin-top: 10px;
+}
+
+/* 👇 Style only the inner span now */
+.correct {
+  color: #317F39;
+  background-color: #EEFBEF;
+  padding: 2px 6px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.wrong {
+  color: #9E2930;
+  background-color: #FCEBEC;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+
+}
